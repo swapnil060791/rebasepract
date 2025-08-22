@@ -15,5 +15,10 @@ resource "azurerm_resource_group" "rg3" {
 resource "azurerm_resource_group" "rg4" {
     name     = "swapnamahrg4"
     location = "eastus2"
+}
+
+resource "azurerm_resource_group" "rg5" {
+    name     = "swapnamahrg5"
+    location = "centralus"
   
 }
